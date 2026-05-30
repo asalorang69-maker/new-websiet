@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WELCOME</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login-page">
+    <h1>SocialApp</h1>
+
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+
+    <p>
+        Demo Login:<br>
+        Username: admin<br>
+        Password: admin123
+    </p>
+</div>
+
+<div id="app" style="display:none;">
+    <header>
+        <h2>SocialApp</h2>
+        <button onclick="logout()">Logout</button>
+    </header>
+
+    <section class="create-post">
+        <textarea id="postText" placeholder="Apa yang sedang Anda pikirkan?"></textarea>
+        <button onclick="createPost()">Posting</button>
+    </section>
+
+    <section id="feed"></section>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
