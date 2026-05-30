@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f0f2f5;
+    margin:0;
+}
+
+#login-page{
+    width:300px;
+    margin:100px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    box-sizing:border-box;
+}
+
+button{
+    padding:10px 15px;
+    background:#1877f2;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+header{
+    background:#1877f2;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.create-post{
+    background:white;
+    margin:20px auto;
+    width:600px;
+    padding:15px;
+    border-radius:10px;
+}
+
+#feed{
+    width:600px;
+    margin:auto;
+}
+
+.post{
+    background:white;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:10px;
+}
